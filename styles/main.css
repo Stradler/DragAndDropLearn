@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#phrase {
+  display: flex;
+}
+
+.container,
+.letter {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.box {
+  height: 39px;
+  width: 39px;
+  background-color: red;
+  font-size: 30px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
